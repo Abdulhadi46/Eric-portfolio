@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/c3a36ed362.js"
+      crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet" />
+    <title>Eric Portfolio</title>
+    <link rel="stylesheet" href="output.css" />
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+  <body class="bg-[#EFFBF8]">
+    <!-- Nav Bar -->
+
+    <nav class="lg:hidden sm:block h-[70px] sm:h-[50px] bg-white z-10">
+      <img
+        src="./images/logo.png"
+        alt=""
+        class="relative top-[15px] left-[5px] sm:w-[100px] sm:h-[30px]" />
+      <div class="off-screen-menu">
+        <img
+          src="./images/my-img.jpg"
+          class="mx-auto mt-5 w-[90px] border-2 rounded-[2.75rem] border-[#A5A6FF]"
+          alt="" />
+        <ul class="text-center font-inter">
+          <li class="mb-[9px] text-[#a5a6ff] text-[25px] w-20px">
+            <a class="active" href="#">Home</a>
+          </li>
+          <li class="mb-[9px] text-[#55527C] text-[25px] w-20px">
+            <a class="hover:text-[#A5A6FF] duration-500" href="#">About</a>
+          </li>
+          <li class="mb-[9px] text-[#55527C] text-[25px] w-20px">
+            <a class="hover:text-[#A5A6FF] duration-500" href="#">Services</a>
+          </li>
+          <li class="mb-[9px] text-[#55527C] text-[25px] w-20px">
+            <a class="hover:text-[#A5A6FF] duration-500" href="#">Portfolio</a>
+          </li>
+          <li class="mb-[9px] text-[#55527C] text-[25px] w-20px">
+            <a class="hover:text-[#A5A6FF] duration-500" href="#">Blog</a>
+          </li>
+          <li class="mb-[9px] text-[#55527C] text-[25px] w-20px">
+            <a class="hover:text-[#A5A6FF] duration-500" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Ham Menu -->
+
+      <div class="ham-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <section class="lg:flex">
+      <div
+        class="fixed w-[25%] 2sm:hidden sm:hidden md:hidden lg:flex flex-col justify-between h-screen border-[1px] bg-[white] z-10">
+        <div>
+          <img
+            src="./images/my-img.jpg"
+            class="mx-auto mt-5 w-[90px] border-2 rounded-[2.75rem] border-[#A5A6FF]"
+            alt="" />
+          <h1
+            class="text-center mt-2 font-bold text-[#130F49] text-[18px] font-inter">
+            Robert Elisc
+          </h1>
+        </div>
+        <div>
+          <ul class="text-center font-inter">
+            <li class="mb-[9px] text-[#a5a6ff] w-20px">
+              <a class="active" href="#">Home</a>
+            </li>
+            <li class="mb-[9px] text-[#55527C] w-20px">
+              <a class="hover:text-[#A5A6FF] duration-500" href="#">About</a>
+            </li>
+            <li class="mb-[9px] text-[#55527C] w-20px">
+              <a class="hover:text-[#A5A6FF] duration-500" href="#">Services</a>
+            </li>
+            <li class="mb-[9px] text-[#55527C] w-20px">
+              <a class="hover:text-[#A5A6FF] duration-500" href="#"
+                >Portfolio</a
+              >
+            </li>
+            <li class="mb-[9px] text-[#55527C] w-20px">
+              <a class="hover:text-[#A5A6FF] duration-500" href="#">Blog</a>
+            </li>
+            <li class="mb-[9px] text-[#55527C] w-20px">
+              <a class="hover:text-[#A5A6FF] duration-500" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="text-center mb-3">
+          <i
+            ><a
+              href="#"
+              class="fa-brands fa-facebook text-[20px] p-[7px] cursor-pointer rounded-[2.75rem] bg-[#F3F3F6]"></a
+          ></i>
+          <i
+            ><a
+              href="#"
+              class="fa-brands fa-twitter text-[20px] p-[7px] cursor-pointer rounded-[2.75rem] bg-[#F3F3F6]"></a
+          ></i>
+          <i
+            ><a
+              href="#"
+              class="fa-brands fa-linkedin text-[20px] p-[7px] cursor-pointer rounded-[2.75rem] bg-[#F3F3F6]"></a
+          ></i>
+          <div class="font-karla">
+            <p class="text-[15px] mt-[10px]">Copyright © 2023 Robert</p>
+            <p class="text-[15px] mt-[10px]">Elisc. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Section  -->
+      <div
+        class="w-[75%] md:w-[100%] md:ml-0 sm:w-[100%] bg-[#EFFBF8] h-[700px] z-0 main-section">
+        <div class="flex md:flex-row flex-col max-w-[1320px] m-[10px]">
+          <!-- Text -->
+          <div
+            class="basis-[60%] my-[70px] md:mx-auto sm:ml-[2.75rem] 2sm:ml-0 flex flex-col justify-between">
+            <div
+              class="text-start font-inter leading-[70px] text-[60px] text-[#130F49] font-extrabold">
+              <h1 class="sm:text-[50px]">
+                Hi, I'm <span class="text-[#A5A6FF]">Elisc!</span>
+              </h1>
+              <h1
+                class="overflow-hidden lg:text-[50px] md:text-[30px] 2sm:text-[30px]">
+                Creative
+                <span
+                  class="auto-typing lg:text-[40px] md:text-[30px] 3sm:text-[25px] 2sm:text-[28px]"></span>
+              </h1>
+              <h1
+                class="lg:text-[40px] md:text-[30px] 3sm:text-[25px] 2sm:text-[30px]">
+                Based in Florida
+              </h1>
+            </div>
+            <div>
+              <p class="text-[#C2C8CC] mt-[20px] font-karla">
+                I'm a Florida based web designer & front-end <br />
+                developer with
+                <span class="text-[#A5ABFE]"> 10+ years </span> of experience
+              </p>
+            </div>
+            <div class="mt-[20px] font-karla">
+              <button
+                class="w-[180px] h-[60px] border-[1px] border-[#130F49] font-bold text-white bg-[#130F49] hover:bg-[#EFFBF8] hover:text-[#b1b6b9] duration-[.5s] rounded-md">
+                Got A Project?
+              </button>
+              <button
+                class="w-[130px] h-[60px] border-[1px] border-[#130F49] font-bold text-[#b1b6b9] hover:bg-[#130F49] hover:text-white duration-[.5s] rounded-md">
+                Let's Talk
+              </button>
+            </div>
+
+            <div class="mt-[60px]" id="info">
+              <ul>
+                <li>
+                  <a
+                    href="tel:+92 3037580845"
+                    class="ml-[30px] text-start text-[16px] font-inter font-semibold hover:text-[#FF972D] duration-[.5s]"
+                    >+77 022 444 05 05</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="ml-[30px] text-start text-[16px] font-inter font-semibold hover:text-[#FF972D] duration-[.5s]"
+                    >support@elisc.com</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="ml-[30px] text-start text-[16px] font-inter font-semibold hover:text-[#FF972D] duration-[.5s]"
+                    >Ave Street Avenue, New York</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Image -->
+          <div class="basis-[40%] my-[30px]">
+            <img src="./images/banner.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="autotyping.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
