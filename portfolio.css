@@ -33,7 +33,11 @@ nav {
   .ham-menu {
     height: 30px;
     width: 30px;
-    top: -20px;
+  }
+}
+@media (max-width: 400px) {
+  .ham-menu {
+    top: 20px;
   }
 }
 .ham-menu span {

@@ -18,39 +18,78 @@
     <link rel="stylesheet" href="output.css" />
     <link rel="stylesheet" href="portfolio.css" />
   </head>
-  <body class="bg-[#EFFBF8]">
+  <body>
     <!-- Nav Bar -->
 
     <nav class="lg:hidden sm:block h-[70px] sm:h-[50px] bg-white z-10">
       <img
         src="./images/logo.png"
         alt=""
-        class="relative top-[15px] left-[5px] sm:w-[100px] sm:h-[30px]" />
+        class="relative top-[15px] left-[5px] sm:w-[150px] sm:h-[40px] 2sm:w-[150px] 2sm:h-[40px]" />
       <div class="off-screen-menu">
         <img
           src="./images/my-img.jpg"
-          class="mx-auto mt-5 w-[90px] border-2 rounded-[2.75rem] border-[#A5A6FF]"
+          class="mx-auto mt-5 w-[90px] 3sm:w-[60px] border-2 rounded-[2.75rem] border-lightext-light_purple"
           alt="" />
         <ul class="text-center font-inter">
-          <li class="mb-[9px] text-[#a5a6ff] text-[25px] w-20px">
-            <a class="active" href="#">Home</a>
+          <li
+            class="mb-[9px] 3sm:mb-[3px] text-light_purple text-[25px] w-20px">
+            <a class="active 3sm:text-[15px]" href="#">Home</a>
+          </li>
+          <li class="mb-[9px] 3sm:mb-[3px] text-[#55527C] text-[25px] w-20px">
+            <a
+              class="hover:text-light_purple duration-500 3sm:text-[15px]"
+              href="#"
+              >About</a
+            >
+          </li>
+          <li class="mb-[9px] 3sm:mb-[3px] text-[#55527C] text-[25px] w-20px">
+            <a
+              class="hover:text-light_purple duration-500 3sm:text-[15px]"
+              href="#"
+              >Services</a
+            >
+          </li>
+          <li class="mb-[9px] 3sm:mb-[3px] text-[#55527C] text-[25px] w-20px">
+            <a
+              class="hover:text-light_purple duration-500 3sm:text-[15px]"
+              href="#"
+              >Portfolio</a
+            >
           </li>
           <li class="mb-[9px] text-[#55527C] text-[25px] w-20px">
-            <a class="hover:text-[#A5A6FF] duration-500" href="#">About</a>
+            <a
+              class="hover:text-light_purple duration-500 3sm:text-[15px]"
+              href="#"
+              >Blog</a
+            >
           </li>
           <li class="mb-[9px] text-[#55527C] text-[25px] w-20px">
-            <a class="hover:text-[#A5A6FF] duration-500" href="#">Services</a>
-          </li>
-          <li class="mb-[9px] text-[#55527C] text-[25px] w-20px">
-            <a class="hover:text-[#A5A6FF] duration-500" href="#">Portfolio</a>
-          </li>
-          <li class="mb-[9px] text-[#55527C] text-[25px] w-20px">
-            <a class="hover:text-[#A5A6FF] duration-500" href="#">Blog</a>
-          </li>
-          <li class="mb-[9px] text-[#55527C] text-[25px] w-20px">
-            <a class="hover:text-[#A5A6FF] duration-500" href="#">Contact</a>
+            <a
+              class="hover:text-light_purple duration-500 3sm:text-[15px]"
+              href="#"
+              >Contact</a
+            >
           </li>
         </ul>
+
+        <div class="text-center">
+          <i
+            ><a
+              href="#"
+              class="fa-brands fa-facebook text-[10px] cursor-pointer rounded-[2.75rem] bg-[#F3F3F6]"></a
+          ></i>
+          <i
+            ><a
+              href="#"
+              class="fa-brands fa-twitter text-[10px] cursor-pointer rounded-[2.75rem] bg-[#F3F3F6]"></a
+          ></i>
+          <i
+            ><a
+              href="#"
+              class="fa-brands fa-linkedin text-[10px] cursor-pointer rounded-[2.75rem] bg-[#F3F3F6]"></a
+          ></i>
+        </div>
       </div>
 
       <!-- Ham Menu -->
@@ -61,40 +100,44 @@
         <span></span>
       </div>
     </nav>
-    <section class="lg:flex">
+    <section class="lg:flex bg-bg_color">
       <div
         class="fixed w-[25%] 2sm:hidden sm:hidden md:hidden lg:flex flex-col justify-between h-screen border-[1px] bg-[white] z-10">
         <div>
           <img
             src="./images/my-img.jpg"
-            class="mx-auto mt-5 w-[90px] border-2 rounded-[2.75rem] border-[#A5A6FF]"
+            class="mx-auto mt-5 w-[90px] border-2 rounded-[2.75rem] border-light_purple"
             alt="" />
           <h1
-            class="text-center mt-2 font-bold text-[#130F49] text-[18px] font-inter">
+            class="text-center mt-2 font-bold text-dark_blue text-[20px] font-inter">
             Robert Elisc
           </h1>
         </div>
         <div>
           <ul class="text-center font-inter">
-            <li class="mb-[9px] text-[#a5a6ff] w-20px">
+            <li class="mb-[9px] text-light_purple w-20px">
               <a class="active" href="#">Home</a>
             </li>
-            <li class="mb-[9px] text-[#55527C] w-20px">
-              <a class="hover:text-[#A5A6FF] duration-500" href="#">About</a>
+            <li class="mb-[9px] text-textColor w-20px">
+              <a class="hover:text-light_purple duration-500" href="#">About</a>
             </li>
-            <li class="mb-[9px] text-[#55527C] w-20px">
-              <a class="hover:text-[#A5A6FF] duration-500" href="#">Services</a>
+            <li class="mb-[9px] text-textColor w-20px">
+              <a class="hover:text-light_purple duration-500" href="#"
+                >Services</a
+              >
             </li>
-            <li class="mb-[9px] text-[#55527C] w-20px">
-              <a class="hover:text-[#A5A6FF] duration-500" href="#"
+            <li class="mb-[9px] text-textColor w-20px">
+              <a class="hover:text-light_purple duration-500" href="#"
                 >Portfolio</a
               >
             </li>
-            <li class="mb-[9px] text-[#55527C] w-20px">
-              <a class="hover:text-[#A5A6FF] duration-500" href="#">Blog</a>
+            <li class="mb-[9px] text-textColor w-20px">
+              <a class="hover:text-light_purple duration-500" href="#">Blog</a>
             </li>
-            <li class="mb-[9px] text-[#55527C] w-20px">
-              <a class="hover:text-[#A5A6FF] duration-500" href="#">Contact</a>
+            <li class="mb-[9px] text-textColor w-20px">
+              <a class="hover:text-light_purple duration-500" href="#"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
@@ -102,17 +145,17 @@
           <i
             ><a
               href="#"
-              class="fa-brands fa-facebook text-[20px] p-[7px] cursor-pointer rounded-[2.75rem] bg-[#F3F3F6]"></a
+              class="fa-brands fa-facebook text-[20px] p-[7px] cursor-pointer rounded-[2.75rem] bg-backGround_color"></a
           ></i>
           <i
             ><a
               href="#"
-              class="fa-brands fa-twitter text-[20px] p-[7px] cursor-pointer rounded-[2.75rem] bg-[#F3F3F6]"></a
+              class="fa-brands fa-twitter text-[20px] p-[7px] cursor-pointer rounded-[2.75rem] bg-backGround_color"></a
           ></i>
           <i
             ><a
               href="#"
-              class="fa-brands fa-linkedin text-[20px] p-[7px] cursor-pointer rounded-[2.75rem] bg-[#F3F3F6]"></a
+              class="fa-brands fa-linkedin text-[20px] p-[7px] cursor-pointer rounded-[2.75rem] bg-backGround_color"></a
           ></i>
           <div class="font-karla">
             <p class="text-[15px] mt-[10px]">Copyright © 2023 Robert</p>
@@ -122,81 +165,187 @@
       </div>
 
       <!-- Main Section  -->
-      <div
-        class="w-[75%] md:w-[100%] md:ml-0 sm:w-[100%] bg-[#EFFBF8] h-[700px] z-0 main-section">
-        <div class="flex md:flex-row flex-col max-w-[1320px] m-[10px]">
-          <!-- Text -->
+
+      <section
+        class="w-[75%] md:w-[100%] 2sm:w-[100%] md:ml-0 sm:w-[100%] lg:h-[700px] z-0 main-section bg-backGround_color">
+        <div class="bg-[#EFFBF8]">
           <div
-            class="basis-[60%] my-[70px] md:mx-auto sm:ml-[2.75rem] 2sm:ml-0 flex flex-col justify-between">
+            class="flex md:flex-row flex-col-reverse max-w-[1320px] m-[10px]">
+            <!-- Text -->
             <div
-              class="text-start font-inter leading-[70px] text-[60px] text-[#130F49] font-extrabold">
-              <h1 class="sm:text-[50px]">
-                Hi, I'm <span class="text-[#A5A6FF]">Elisc!</span>
-              </h1>
-              <h1
-                class="overflow-hidden lg:text-[50px] md:text-[30px] 2sm:text-[30px]">
-                Creative
-                <span
-                  class="auto-typing lg:text-[40px] md:text-[30px] 3sm:text-[25px] 2sm:text-[28px]"></span>
-              </h1>
-              <h1
-                class="lg:text-[40px] md:text-[30px] 3sm:text-[25px] 2sm:text-[30px]">
-                Based in Florida
-              </h1>
-            </div>
-            <div>
-              <p class="text-[#C2C8CC] mt-[20px] font-karla">
-                I'm a Florida based web designer & front-end <br />
-                developer with
-                <span class="text-[#A5ABFE]"> 10+ years </span> of experience
-              </p>
-            </div>
-            <div class="mt-[20px] font-karla">
-              <button
-                class="w-[180px] h-[60px] border-[1px] border-[#130F49] font-bold text-white bg-[#130F49] hover:bg-[#EFFBF8] hover:text-[#b1b6b9] duration-[.5s] rounded-md">
-                Got A Project?
-              </button>
-              <button
-                class="w-[130px] h-[60px] border-[1px] border-[#130F49] font-bold text-[#b1b6b9] hover:bg-[#130F49] hover:text-white duration-[.5s] rounded-md">
-                Let's Talk
-              </button>
+              class="basis-[60%] my-[70px] md:mx-auto sm:ml-[2.75rem] flex flex-col">
+              <div
+                class="text-start font-inter leading-[55px] text-[60px] text-dark_blue font-extrabold 2sm:text-[40px]">
+                <h1 class="sm:text-[50px] 2sm:text-[25px] lg:text-[60px]">
+                  Hi, I'm <span class="text-light_purple">Elisc!</span>
+                </h1>
+                <div class="box-content h-[50px] flex">
+                  <p
+                    class="overflow-hidden lg:text-[50px] md:text-[30px] 2sm:text-[25px]">
+                    Creative
+                  </p>
+                  <div class="overflow-hidden">
+                    <span
+                      class="block h-[100%] pl-[10px] animate-[wiggle_7s_ease-in-out_infinite] 2sm:text-[20px] lg:text-[30px]"
+                      >Coder</span
+                    >
+                    <span
+                      class="block h-[100%] pl-[10px] animate-[wiggle_7s_ease-in-out_infinite] 2sm:text-[20px] lg:text-[30px]"
+                      >Web designer</span
+                    ><span
+                      class="block h-[100%] pl-[10px] animate-[wiggle_7s_ease-in-out_infinite] 2sm:text-[20px] lg:text-[30px]"
+                      >Web Developer</span
+                    >
+                  </div>
+                </div>
+                <h1
+                  class="lg:text-[40px] md:text-[30px] 3sm:text-[25px] 2sm:text-[25px]">
+                  Based in Florida
+                </h1>
+              </div>
+              <div>
+                <p
+                  class="text-[#C2C8CC] mt-[20px] font-karla 2sm:text-[13px] lg:text-[20px]">
+                  I'm a Florida based web designer & front-end <br />
+                  developer with
+                  <span class="text-[#A5ABFE]"> 10+ years </span> of experience
+                </p>
+              </div>
+              <div class="mt-[80px] font-karla">
+                <button
+                  class="2sm:w-[130px] 2sm:text-[15px] lg:w-[200px] h-[60px] border-[1px] border-dark_blue font-bold text-white bg-dark_blue hover:bg-[#EFFBF8] hover:text-dark_blue duration-[.5s] rounded-md">
+                  Got A Project?
+                </button>
+                <button
+                  class="lg:w-[170px] h-[60px] border-[1px] border-dark_blue font-bold text-dark_blue hover:bg-dark_blue hover:text-white duration-[.5s] rounded-md">
+                  Let's Talk
+                </button>
+              </div>
+
+              <div class="mt-[60px]" id="info">
+                <ul>
+                  <li>
+                    <a
+                      href="tel:+92 3037580845"
+                      class="ml-[30px] text-start text-[16px] font-inter font-semibold hover:text-hoverColor duration-[.5s]"
+                      >+77 022 444 05 05</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="ml-[30px] text-start text-[16px] font-inter font-semibold hover:text-hoverColor duration-[.5s]"
+                      >support@elisc.com</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="ml-[30px] text-start text-[16px] font-inter font-semibold hover:text-hoverColor duration-[.5s]"
+                      >Ave Street Avenue, New York</a
+                    >
+                  </li>
+                </ul>
+              </div>
             </div>
 
-            <div class="mt-[60px]" id="info">
-              <ul>
-                <li>
-                  <a
-                    href="tel:+92 3037580845"
-                    class="ml-[30px] text-start text-[16px] font-inter font-semibold hover:text-[#FF972D] duration-[.5s]"
-                    >+77 022 444 05 05</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="ml-[30px] text-start text-[16px] font-inter font-semibold hover:text-[#FF972D] duration-[.5s]"
-                    >support@elisc.com</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="ml-[30px] text-start text-[16px] font-inter font-semibold hover:text-[#FF972D] duration-[.5s]"
-                    >Ave Street Avenue, New York</a
-                  >
-                </li>
-              </ul>
+            <!-- Image -->
+            <div class="basis-[40%] my-[30px]">
+              <img src="./images/banner.png" alt="" />
             </div>
-          </div>
-
-          <!-- Image -->
-          <div class="basis-[40%] my-[30px]">
-            <img src="./images/banner.png" alt="" />
           </div>
         </div>
-      </div>
+
+        <section class="bg-white mt-[100px]">
+          <div class="flex md:flex-row flex-col max-w-[1320px] items-center">
+            <div
+              class="basis-[35%] ml-[30px] text-start text-[16px] font-inter">
+              <h1 class="hover:text-[#FF972D] duration-[.5s]">
+                - Nice to meet you!
+              </h1>
+              <h1 class="lg:text-[40px] font-bold text-dark_blue">
+                Robert Elisc
+              </h1>
+              <div class="box-content h-[50px] flex font-karla">
+                <p
+                  class="overflow-hidden lg:text-[20px] md:text-[20px] 2sm:text-[15px] font-semibold">
+                  Web designer &
+                </p>
+                <div class="overflow-hidden text-[#130F49]">
+                  <span
+                    class="block h-[100%] animate-[wiggle_7s_ease-in-out_infinite] 2sm:text-[20px] lg:text-[20px]"
+                    >Coder</span
+                  >
+                  <span
+                    class="block h-[100%] animate-[wiggle_7s_ease-in-out_infinite] 2sm:text-[20px] lg:text-[20px]"
+                    >Developer</span
+                  ><span
+                    class="block h-[100%] animate-[wiggle_7s_ease-in-out_infinite] 2sm:text-[20px] lg:text-[20px]"
+                    >Player</span
+                  >
+                </div>
+              </div>
+              <div class="mt-[20px]">
+                <button
+                  class="2sm:w-[130px] 2sm:text-[15px] lg:w-[200px] h-[60px] border-[1px] border-dark_blue font-bold text-white bg-dark_blue hover:bg-[#EFFBF8] hover:text-dark_blue duration-[.5s] rounded-md">
+                  Got A Project?
+                </button>
+              </div>
+            </div>
+            <div class="basis-[65%] font-inter flex flex-col justify-between">
+              <p>
+                Hello there! My name is
+                <span class="text-hoverColor"> Robert Elisc.</span> I am a web
+                designer & developer, and I'm very passionate and dedicated to
+                my work.
+              </p>
+              <p class="mt-[30px] w-[80%]">
+                With 20 years experience as a professional a graphic designer, I
+                have acquired the skills and knowledge necessary to make your
+                project a success. I enjoy every step of the design process,
+                from discussion and collaboration.
+              </p>
+              <div class="mt-[30px] font-karla">
+                <ul class="flex gap-7 underline uppercase">
+                  <li>Age</li>
+                  <li>City</li>
+                  <li class="ml-[30px]">Mail</li>
+                  <li class="ml-[215px]">Phone</li>
+                </ul>
+              </div>
+              <div class="mt-2">
+                <ul class="flex gap-10 font-semibold text-dark_blue">
+                  <li>21</li>
+                  <li>
+                    <a
+                      href="#"
+                      class="hover:text-hoverColor duration-[.4s] ease"
+                      >Sialkot</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="hover:text-hoverColor duration-[.4s] ease"
+                      href="#"
+                      >abdulhadi200205@gmail.com</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="hover:text-hoverColor duration-[.4s] ease"
+                      href="#"
+                      >+92 3230706787</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
     </section>
-    <script src="autotyping.js"></script>
+
+    <!-- <script src="autotyping.js"></script> -->
     <script src="app.js"></script>
   </body>
 </html>
